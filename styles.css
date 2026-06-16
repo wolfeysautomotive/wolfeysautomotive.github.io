@@ -1,0 +1,26 @@
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:Arial,sans-serif;background:#0b0b0b;color:#fff;line-height:1.6}
+    nav{position:fixed;top:0;width:100%;padding:20px 60px;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);display:flex;justify-content:space-between;z-index:1000}
+    nav a{color:#fff;text-decoration:none;margin-left:25px;font-weight:bold}
+    .hero img{padding-top:50px;width: 100%; height: auto;}
+    .hero{height:145vh;background:linear-gradient(rgba(0,0,0,.72),rgba(0,0,0,.9)),url('/mnt/data/wolfeys-automotive.jpg') center center/contain no-repeat;background-color:#000;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem}
+    .hero h1{font-size:4.5rem;text-transform:uppercase;letter-spacing:4px;text-shadow:0 0 20px rgba(255,0,0,.4)}
+    .hero p{font-size:1.3rem;color:#ddd;max-width:700px;margin:20px 0}
+    .btn{padding:15px 35px;background:#c40000;color:#fff;text-decoration:none;border-radius:8px;font-weight:bold}
+    section{padding:100px 60px;text-align:center}
+    .grid{display:flex;gap:30px;justify-content:center;flex-wrap:wrap}
+    .card{background:#151515;padding:30px;border-radius:16px;width:300px;border:1px solid #333}
+    .footer{display: flex;}
+    #contact a {color: white; text-decoration: none; text-align: center;}
+  @media (max-width: 768px){
+nav{padding:15px 20px;flex-direction:column;align-items:center;gap:10px}
+nav div:last-child{display:flex;gap:15px;flex-wrap:wrap;justify-content:center}
+.hero img{padding-top: 200px;width:100%;height:auto;}
+.hero{padding:1.5rem;height:90vh;background-size:80%}
+.hero h1{font-size:2.4rem;letter-spacing:2px}
+.hero p{font-size:1rem;max-width:95%}
+section{padding:70px 20px}
+.grid{flex-direction:column;align-items:center}
+.card{width:100%;max-width:340px}
+.btn{padding:12px 24px;font-size:.95rem}
+}
