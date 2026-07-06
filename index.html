@@ -32,6 +32,7 @@ section{padding:70px 20px}
 .btn{padding:12px 24px;font-size:.95rem}
 }
   </style>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <nav>
@@ -71,7 +72,19 @@ section{padding:70px 20px}
 
 <section id="about">
 <h2>Driven by Precision</h2>
-<p>With 15+ years of experience, Wolfey's Automotive delivers aggressive performance and dependable craftsmanship.</p>
+<p>With 15+ years of experience, Wolfey's Automotive delivers aggressive performance and dependable workmanship.</p>
+<br/>
+<div class="container">
+    <div class="image-container">
+      <button class="image-item" data-modal="true" data-gallery="Mechanical" aria-label="Open Mechanical image gallery">
+        <img src="./images/mechanical/mechanical-1--sm.jpg" alt="Mechanical">
+      </button>
+      <button class="image-item" data-modal="true" data-gallery="Detailing" aria-label="Open Detailing image gallery">
+        <img src="./images/detailing/detailing-1--sm.jpg" alt="Detailing">
+      </button>
+    </div>
+  </div>
+
 </section>
 
 <section id="contact">
@@ -88,5 +101,11 @@ section{padding:70px 20px}
   <p class="copyright">Copyright &copy; 2024 - 2026</p>
 </footer>
 <script src="https://kit.fontawesome.com/65718e1eab.js" crossorigin="anonymous"></script>
+<script type="module">
+  import initGallery from "./js/galleryApp.js";
+  initGallery('./data/galleries.json', {
+    speed: 600,
+  })
+</script>
 </body>
 </html>
