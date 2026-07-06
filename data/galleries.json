@@ -1,0 +1,54 @@
+[
+    {
+      "name" : "Mechanical",
+      "images" : [
+        {
+            "src": "./images/mechanical/mechanical-1.jpg"
+          },
+          {
+            "src": "./images/mechanical/mechanical-2.jpg"          
+          },
+          {
+            "src": "./images/mechanical/mechanical-3.jpg"
+          },
+          {
+            "src": "./images/mechanical/mechanical-4.jpg"
+          },
+          {
+            "src": "./images/mechanical/mechanical-5.jpg"
+          },
+          {
+            "src": "./images/mechanical/mechanical-6.jpg"
+          },
+          {
+            "src": "./images/mechanical/mechanical-7.jpg"
+          }
+      ]
+    },
+    {
+      "name" : "Detailing",
+      "images" : [
+        {
+            "src": "./images/detailing/detailing-1.jpg"          
+          },
+          {
+            "src": "./images/detailing/detailing-2.jpg"          
+          },
+          {
+            "src": "./images/detailing/detailing-3.jpg"          
+          },
+          {
+            "src": "./images/detailing/detailing-4.jpg"          
+          },
+          {
+            "src": "./images/detailing/detailing-5.jpg"          
+          },
+          {
+            "src": "./images/detailing/detailing-6.jpg"          
+          },
+          {
+            "src": "./images/detailing/detailing-7.jpg"        
+          }
+      ]
+    }
+  ]
